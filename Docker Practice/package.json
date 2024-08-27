@@ -1,0 +1,19 @@
+{
+  "name": "docker-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "npm-start": "^1.4.2"
+  }
+}

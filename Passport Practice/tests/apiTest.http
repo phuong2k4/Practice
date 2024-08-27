@@ -1,0 +1,15 @@
+### check server 
+GET http://localhost:3000/status
+
+
+### login 
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username" : "david",
+    "password": "123"
+}
+
+### check profile
+GET http://localhost:3000/profile
