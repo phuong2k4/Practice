@@ -1,0 +1,5 @@
+### check server running correctly
+get http://localhost:3000/status
+
+###check profile running on port
+get http://localhost:3000/profile
