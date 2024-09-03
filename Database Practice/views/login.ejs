@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Practice</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="/log" class="form-css" method="post" >
+                <input  name="email" placeholder="Your email here: " class="email-css">
+                <input  name="password" id="" placeholder="Your password: " class="pass-css">
+                <button type="submit" onclick="clearInputs" class="btn-css">Log in</button>
+        </form>
+        <div>Not have account? <a href="/">Sign in now!</a> </div>
+    </div>
+    <script>
+        function clearInputs() {
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+        }
+    </script>
+</body>
+</html>
