@@ -77,8 +77,7 @@ async function HashFuncion(userPassword, clientPassword){
         return {hashClient,hashUser}
     }catch(err){
         console.log(err.message)
-    }
-    
+    }  
 }
 
 
